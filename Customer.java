@@ -1,5 +1,3 @@
-
-//Harsh changes made to the code
 package restaurant;
 
 // Customer class
@@ -16,6 +14,10 @@ public class Customer {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public Order getOrder() {
         return order;
     }
@@ -30,6 +32,10 @@ public class Customer {
 
     public void clearOrder() {
         order.clear();  // Collaborating with Order to clear all items
+    }
+
+    public double getTotalPrice() {
+        return order.getTotalPrice();  // Collaborating with Order to get total price
     }
 
     public void placeOrder() {
