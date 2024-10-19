@@ -1,0 +1,148 @@
+!SESSION 2024-10-19 12:05:23.061 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-19 12:05:25.251
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-19 12:05:42.839
+!MESSAGE Logback config file: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-10-19 12:05:44.849
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-19 12:05:44.849
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-19 12:05:48.330
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-19 12:21:05.449
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-19 12:21:33.801
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-10-19 12:21:33.802
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2024-10-19 12:21:33.802
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2024-10-19 12:21:33.802
+!MESSAGE C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-19 12:21:46.702
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-10-19 12:21:46.702
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2024-10-19 12:21:46.702
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2024-10-19 12:21:46.702
+!MESSAGE C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-19 12:24:30.067
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-10-19 12:24:30.067
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2024-10-19 12:24:30.067
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2024-10-19 12:24:30.067
+!MESSAGE C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-19 12:25:47.838
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-10-19 12:25:47.838
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2024-10-19 12:25:47.838
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2024-10-19 12:25:47.838
+!MESSAGE C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3 overlaps the workspace location: C:\Users\USER\Documents\CISD\3rd semester\COSC 236- OoSYSTEMS\Lab3_work_space\Lab-3
